@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: testdeploy
-          image: cpatil/cpatil:latest
+          image: 10.2.0.63/cpatil/cpatil
           ports:
             - containerPort: 8080
           env:
